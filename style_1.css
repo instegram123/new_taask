@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  h1 {
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+ form
+ {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+ }
+ input,select
+ {
+    height: 40px;
+    margin: px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+ }
+ button
+ {
+    width: 100%;
+    color: white;
+    background-color: rgb(19, 170, 19);
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+ }
+ input , select
+ {
+    width: calc(33.333% - 20px); 
+ }
+ #search
+ {
+   width: 70%;
+   margin: 0 auto;
+   display: block;
+ }
+ table
+ {
+width: 90%;
+margin: 40px auto;
+border-radius: 4px;
+margin-top: 20px;
+}
+th
+{
+   border: 1px solid #ffffff;
+   border-collapse: collapse;
+background-color: #007bff;
+padding: 10px;
+color: white;
+}
+td
+{
+   padding: 15px;
+   border: 1px solid #ddd;
+   text-align: left;
+   font-size: 1em;
+   color: #555;
+ }
+ td.status {
+   font-weight: bold;
+   text-transform: capitalize;
+ }
+ 
+ td button {
+   padding: 8px 12px;
+   font-size: 14px;
+   border-radius: 5px;
+   margin: 5px;
+ }
+ 
+ .toggle-btn {
+   background-color: #ffc107;
+   color: white;
+   border: none;
+ }
+ 
+ .delete-btn {
+   background-color: #dc3545;
+   color: white;
+   border: none;
+ }
+ 
+ .toggle-btn:hover {
+   background-color: #e0a800;
+ }
+ 
+ .delete-btn:hover {
+   background-color: #c82333;
+ }
+ 
+ tr:hover {
+   background-color: #f8f9fa;
+ }
+
+ 

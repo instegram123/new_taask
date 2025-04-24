@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>💬 الاقتباسات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💬 اقتباسات من الكتب</h1>
+
+  <form id="quote-form">
+    <input type="text" id="quote-book" placeholder="اسم الكتاب">
+    <input type="text" id="quote-text" placeholder="الاقتباس">
+    <button type="button" id="add-quote">➕ إضافة</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>اسم الكتاب</th>
+        <th>الاقتباس</th>
+      </tr>
+    </thead>
+    <tbody id="quote-table-body"></tbody>
+  </table>
+
+  <script src="quotes.js"></script>
+</body>
+</html>

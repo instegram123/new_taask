@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تتبع الكتاب ورقم الصفحة</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📚 تتبع الكتاب ورقم الصفحة</h1>
+
+  <form action="">
+    <input type="text" id="book-title" placeholder="أدخل اسم الكتاب">
+    <label for="page-number">رقم الصفحة:</label>
+
+    <input type="number" id="page-number" placeholder="  أدخل رقم الصفحة المتوقف عندها" >
+    <label for="book-title">اسم الكتاب:</label>
+
+  </form>
+
+  <button id="add-page">إضافة</button>
+
+
+  <div>
+    <h3>الكتب ورقم الصفحة</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>اسم الكتاب</th>
+          <th>رقم الصفحة</th>
+        </tr>
+      </thead>
+      <tbody id="page-body"></tbody>
+    </table>
+  </div>
+
+  <script src="progress.js"></script>
+</body>
+</html>

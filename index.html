@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مكتبة الكتب</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📚 مكتبة الكتب</h1>
+
+  <form id="book-form">
+    <input type="text" id="title" placeholder="اسم الكتاب" required />
+    <input type="text" id="author" placeholder="اسم المؤلف" required />
+    <select id="status">
+      <option value="Not Read">Not Read</option>
+      <option value="Read">Read</option>
+    </select>
+    <br> <br>
+    <button type="button" id="btm">إضافة الكتاب</button>
+  </form>
+
+<br>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="بحث عن كتاب أو مؤلف" />
+  </div>
+
+  <table id="book-table">
+    <thead>
+      <tr>
+        <th>الكتاب</th>
+        <th>المؤلف</th>
+        <th>الحالة</th>
+        <th>الإجراء</th>
+      </tr>
+    </thead>
+    <tbody id="book-body">
+      <!-- الكتب المضافة ستظهر هنا -->
+    </tbody>
+  </table>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
